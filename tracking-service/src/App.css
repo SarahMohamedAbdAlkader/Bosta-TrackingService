@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+*{
+  font-family: 'Cairo';
+
+
+}
+.fa.fa-floppy-o,.fa.fa-truck,.fa.fa-check{
+  font-size: larger;
+  padding:16px;
+  transform: rotate(180deg);
+    background-color: lightgrey;
+    color:white;
+   
+}
+hr.solid {
+  border-top: 2px solid rgb(235, 232, 232);
+  width: 100%;
+}
+.fa.fa-check{
+  padding:3px
+}
+
+.step.column{
+transform: rotate(180deg);
+
+}
+.progressBar{
+transform: rotate(180deg);
+}
+
+.body{
+  min-height: 75rem;
+padding-top: 4.5rem;
+}
+
+*{
+  font-family: 'Cairo';
+}
+body{
+  padding:50px;
+}
+.nav.navbar-nav li Link {
+  color: red;
+}
+ul#top-menu li a {
+  font-family: Cairo, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24px;
+}
+li.shipment {
+  background-position: 33% 20%;
+  padding-right: 0 !important;
+  padding-left: 65px !important;
+}
+li.dropdown-toggle.open {
+  background-image: url(https://bosta.co/wp-content/uploads/2019/08/more.svg);
+}
+li.shipment {
+  background-image: url(https://bosta.co/wp-content/uploads/2019/08/more-svg-bottm.svg);
+  background-repeat: no-repeat;
+  background-position: 27% 50%;
+  padding-left: 5px;
+  background-size: 16px;
+  cursor: pointer;
+  padding-right: 65px !important;
+  ;
+}
+#navbarSupportedContent li {
+  padding-left: 20px;
+  padding-right: 0 !important;
+}
+.left_menu {
+ 
+  padding-left: 0;
+  padding-right: 6%;
+}
+input#track_num {
+  border: 1px solid #e3e7ec;
+  height: 36px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px 10px;
+  width: 240px;
+  font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+  color: #979797;
+  font-size: 20px;
+}
+.dropdown-menu{
+  background: #fafafa;
+}
+.buttonsearch{
+
+background-color: red;
+border:none;
+color:white
+
+}
+.fa.fa-search{
+background-color:"none";
+
+}
+
+.dropdown-menu{
+   /* right: 20%; */
+    top: 49px;
+    left: -10%;
+    background: #fafafa;
+    
+    border-radius: 6px;
+    border: none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    width: 350px;
+}
+   
+
+
+ h2.head_pop {
+  font-size: 24px;
+  font-family: "Cairo", Helvetica, Arial, Lucida, sans-serif;
+  text-align: right;
+  margin-bottom: 5px;
+  color: #ff0000;
+}
+p.lable_pop {
+  font-size: 16px;
+  font-family: "Arial", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-align: right;
+}
+.track_popup {
+
+  background: #fafafa;
+ 
+  top: 63px;
+  padding: 25px 20px;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;}
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 10px;
+  color: #333;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+nav {direction: rtl;}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
