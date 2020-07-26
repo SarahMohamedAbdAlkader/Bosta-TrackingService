@@ -114,7 +114,7 @@ const Shipping = (props) => {
                             <br />
                             <div className=" col-12  " style={{ border: "3px solid rgba(184, 179, 179, 0.090)" }}>
                                 
-                                <div class="row d-flex justify-content-between" >
+                                <div className="row d-flex justify-content-between" >
                                 <div className="col mt-5 ">
                                 <strong >هل يوجد مشكلة في شحنتك؟
                                 
@@ -265,8 +265,11 @@ minutes="0"+minutes
     }
     useEffect(() => {
         //6636234, 7234258, 9442984,1094442
-        const url = `https://tracking.bosta.co/shipments/track/` + track_num
-        fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
+        const url = `https://cors-anywhere.herokuapp.com/https://tracking.bosta.co/shipments/track/` + track_num
+        fetch(url,
+           
+            {headers: {'Access-Control-Allow-Origin': '*'}
+       }) // https://cors-anywhere.herokuapp.com/https://example.com
             .then(response => response.json())
             .then(contents => {
                 setLoading(false);
@@ -283,7 +286,7 @@ minutes="0"+minutes
             .catch((error) => console.log(error))
     }, [])
     return (isLoading ?
-        <h1>is Loading....</h1>
+        <h1 className="text-center mt-5">is Loading....</h1>
         : arabicCard());
 }
 export default Shipping;
